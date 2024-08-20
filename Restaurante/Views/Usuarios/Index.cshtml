@@ -1,0 +1,77 @@
+﻿@model IEnumerable<Restaurante.Models.Usuario>
+@{
+    ViewData["Title"] = "Usuario";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link rel="stylesheet" href="~/css/index.css" />
+<h1>Listado de Usuarios</h1>
+
+<p>
+    <a asp-action="Crear">Crear Nuevo</a>
+</p>
+<div class="table-responsive">
+    <table class="table table-hover">
+    <thead>
+        <tr>
+            <th>
+               Nombre
+            </th>
+            <th>
+               Apellido
+            </th>
+
+            <th>
+                Telefono
+            </th>
+
+            <th>
+               Nombre de usuario
+            </th>
+            <th>
+                Contraseña
+            </th>
+            <th>
+                Rol
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model) {
+            <tr>
+                <td>
+                @Html.DisplayFor(modelItem => item.nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.apellido)
+            </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.telefono)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.nombre_u)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.contraseña)
+                </td>
+                <td>
+                    @{
+                        var roles = ViewBag.rol as List<Rol>
+                        ;
+                        var rol = roles.FirstOrDefault(u => u.id_rol == item.id_rol);
+
+                        // Comparar el valor con el nombre de usuario obtenido
+                        if (rol != null)
+                        {
+                            <span style="color: green;"> @rol.nombre_rol</span>
+                        }
+                    }
+                </td>
+            
+            <td>
+                    <a asp-action="Editar" asp-route-id="@item.id_usuario" >Editar</a>  
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+</div>

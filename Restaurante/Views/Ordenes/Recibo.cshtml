@@ -1,0 +1,14 @@
+﻿@model Restaurante.Models.Orden
+
+<h2>Recibo</h2>
+
+<p>Gracias por tu orden, @Model.Usuario.nombre_u</p>
+
+<ul>
+    <li>Comida: @Model.Comida.Nombre</li>
+    <li>Cantidad: @Model.Cantidad</li>
+    <li>Total: @(Model.Comida.Precio * Model.Cantidad)</li>
+    <li>Fecha de la Orden: @Model.FechaOrden</li>
+</ul>
+
+<p>Tu recibo ha sido generado exitosamente.</p>

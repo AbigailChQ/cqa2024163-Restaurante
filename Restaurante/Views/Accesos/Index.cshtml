@@ -1,0 +1,72 @@
+﻿@model Restaurante.Models.Usuario
+
+@{
+    ViewData["Title"] = "Index";
+}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+  
+</head>
+<body>
+    <script>
+        function SoloLetrasConEspacios(NombreId) {
+            const valor = NombreId.value;
+            // Si el carácter no es alfabético, mostrar un error
+            if (!valor.match(/^[a-zA-Z ]+$/)) {
+                alert("El valor solo debe contener letras.");
+                NombreId.value = '';
+            }
+            // Validar el valor
+            if (valor[0] === " " || valor[valor.length - 1] === " ") {
+                alert("El valor no debe contener espacios vacíos al inicio ni al final.");
+                NombreId.value = '';
+            }
+        }
+        function SoloNumerosYLetras(NombreId) {
+            const valor = NombreId.value;
+            // Si el carácter no es alfabético o numérico, mostrar un error
+            if (!valor.match(/^[0-9a-zA-Z]+$/)) {
+                alert("El valor solo debe contener números y letras.");
+                NombreId.value = '';
+            }
+            // Validar el valor
+            if (valor[0] === " " || valor[valor.length - 1] === " ") {
+                alert("El valor no debe contener espacios vacíos al inicio ni al final.");
+                NombreId.value = '';
+            }
+        }
+    </script>
+    <style>
+        .container-sm{
+            background-color: #ca668b;
+        }
+    </style>
+    <div class="login-container">
+        <div class="login-card">
+            <h1>Inicio de Sesion</h1>
+            <form  asp-action="Index" >
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="mb-3">
+                    <label asp-for="nombre_u" class="form-label fs-5">Nombre Usuario</label>
+                    <input asp-for="nombre_u" type="text" class="form-control"required >
+                    <span asp-validation-for="nombre_u" class="text-danger"></span>
+             </div>
+                <div class="mb-3">
+                    <label asp-for="contraseña" class="form-label">Contraseña</label>
+                    <input asp-for="contraseña" type="password" class="form-control" required>
+                    <span asp-validation-for="contraseña" class="text-danger"></span>
+                </div>
+                <div class="d-grid">
+                    <button type="submit" class="btn btn-primary w-100">Ingresar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

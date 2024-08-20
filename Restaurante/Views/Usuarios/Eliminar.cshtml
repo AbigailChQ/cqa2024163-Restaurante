@@ -1,0 +1,62 @@
+﻿@model Restaurante.Models.Usuario
+
+@{
+    ViewData["Title"] = "Eliminar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Eliminar</h1>
+
+<h4>Usuario</h4>
+<hr />
+<div class="row g-3">
+    <div class="col-md-6">
+        <form asp-action="Eliminar">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="id_usuario"/>
+            <div class="col-md-6">
+                <label class="control-label">Nombre</label>
+                <input asp-for="nombre" class="form-control" readonly />
+                <span asp-validation-for="nombre" class="text-danger"></span>
+            </div>
+            <div class="col-md-6">
+                <label  class="control-label">Apellido</label>
+                <input asp-for="apellido" class="form-control" readonly />
+                <span asp-validation-for="apellido" class="text-danger"></span>
+            </div>
+            <div class="col-md-6">
+                <label class="control-label">Telefono</label>
+                <input asp-for="telefono" class="form-control" readonly />
+                <span asp-validation-for="telefono" class="text-danger"></span>
+            </div>
+            <div class="col-md-6">
+                <label class="control-label">Nombre de usuario</label>
+                <input asp-for="nombre_u" class="form-control" readonly />
+                <span asp-validation-for="nombre_u" class="text-danger"></span>
+            </div>
+            <div class="col-md-6">
+                <label  class="control-label">Contraseña</label>
+                <input asp-for="contraseña" class="form-control" readonly />
+                <span asp-validation-for="contraseña" class="text-danger"></span>
+            </div>
+            <div class="col-md-6">
+                <label class="control-label">Rol</label>
+                <input asp-for="id_rol" class="form-control" readonly/>
+                <span asp-validation-for="id_rol" class="text-danger"></span>
+            </div>
+           
+                    <input type="hidden" class="form-check-input" asp-for="eliminado" checked readonly/>
+
+            <br>
+            <div class="col-12">
+                <input type="submit" value="Eliminar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+<br>
+<div>
+    <a asp-action="Index">Volver</a>
+</div>
+
+

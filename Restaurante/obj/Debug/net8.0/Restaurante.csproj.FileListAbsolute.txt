@@ -1,0 +1,8 @@
+C:\Users\abiga\source\repos\Restaurante\obj\Debug\net8.0\Restaurante.csproj.AssemblyReference.cache
+C:\Users\abiga\source\repos\Restaurante\obj\Debug\net8.0\Restaurante.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abiga\source\repos\Restaurante\obj\Debug\net8.0\Restaurante.AssemblyInfoInputs.cache
+C:\Users\abiga\source\repos\Restaurante\obj\Debug\net8.0\Restaurante.AssemblyInfo.cs
+C:\Users\abiga\source\repos\Restaurante\obj\Debug\net8.0\Restaurante.csproj.CoreCompileInputs.cache
+C:\Users\abiga\source\repos\Restaurante\obj\Debug\net8.0\Restaurante.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\abiga\source\repos\Restaurante\obj\Debug\net8.0\Restaurante.RazorAssemblyInfo.cache
+C:\Users\abiga\source\repos\Restaurante\obj\Debug\net8.0\Restaurante.RazorAssemblyInfo.cs

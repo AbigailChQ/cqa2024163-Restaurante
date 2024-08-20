@@ -1,0 +1,40 @@
+﻿@model IEnumerable<Restaurante.Models.Rol>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<link rel="stylesheet" href="~/css/index.css" />
+<h1>Listado de Roles</h1>
+
+<p>
+    <a asp-action="Crear">Crear Nuevo</a>
+</p>
+<div class="table-responsive">
+    <table class="table table-hover">
+    <thead>
+        <tr>
+            <th>
+               Nombre del rol
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.nombre_rol)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.eliminado_rol)
+            </td>
+            <td>
+                <a asp-action="Editar" asp-route-id="@item.id_rol">Editar</a> |
+                <a asp-action="Eliminar" asp-route-id="@item.id_rol">Eliminar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+</div>
