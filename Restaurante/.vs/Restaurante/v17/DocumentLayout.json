@@ -1,0 +1,443 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\abiga\\source\\repos\\Restaurante\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BEAEA10A-98F3-4418-9906-AEFFC136BBEE}|Restaurante.csproj|c:\\users\\abiga\\source\\repos\\restaurante\\views\\ordenes\\recibo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BEAEA10A-98F3-4418-9906-AEFFC136BBEE}|Restaurante.csproj|solutionrelative:views\\ordenes\\recibo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEAEA10A-98F3-4418-9906-AEFFC136BBEE}|Restaurante.csproj|c:\\users\\abiga\\source\\repos\\restaurante\\views\\ordenes\\ordenar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BEAEA10A-98F3-4418-9906-AEFFC136BBEE}|Restaurante.csproj|solutionrelative:views\\ordenes\\ordenar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEAEA10A-98F3-4418-9906-AEFFC136BBEE}|Restaurante.csproj|c:\\users\\abiga\\source\\repos\\restaurante\\controllers\\ordenescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEAEA10A-98F3-4418-9906-AEFFC136BBEE}|Restaurante.csproj|solutionrelative:controllers\\ordenescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEAEA10A-98F3-4418-9906-AEFFC136BBEE}|Restaurante.csproj|c:\\users\\abiga\\source\\repos\\restaurante\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BEAEA10A-98F3-4418-9906-AEFFC136BBEE}|Restaurante.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEAEA10A-98F3-4418-9906-AEFFC136BBEE}|Restaurante.csproj|c:\\users\\abiga\\source\\repos\\restaurante\\models\\comida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEAEA10A-98F3-4418-9906-AEFFC136BBEE}|Restaurante.csproj|solutionrelative:models\\comida.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEAEA10A-98F3-4418-9906-AEFFC136BBEE}|Restaurante.csproj|c:\\users\\abiga\\source\\repos\\restaurante\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEAEA10A-98F3-4418-9906-AEFFC136BBEE}|Restaurante.csproj|solutionrelative:models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEAEA10A-98F3-4418-9906-AEFFC136BBEE}|Restaurante.csproj|c:\\users\\abiga\\source\\repos\\restaurante\\controllers\\comidascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEAEA10A-98F3-4418-9906-AEFFC136BBEE}|Restaurante.csproj|solutionrelative:controllers\\comidascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEAEA10A-98F3-4418-9906-AEFFC136BBEE}|Restaurante.csproj|c:\\users\\abiga\\source\\repos\\restaurante\\views\\comidas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BEAEA10A-98F3-4418-9906-AEFFC136BBEE}|Restaurante.csproj|solutionrelative:views\\comidas\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEAEA10A-98F3-4418-9906-AEFFC136BBEE}|Restaurante.csproj|c:\\users\\abiga\\source\\repos\\restaurante\\views\\comidas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BEAEA10A-98F3-4418-9906-AEFFC136BBEE}|Restaurante.csproj|solutionrelative:views\\comidas\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEAEA10A-98F3-4418-9906-AEFFC136BBEE}|Restaurante.csproj|c:\\users\\abiga\\source\\repos\\restaurante\\views\\comidas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BEAEA10A-98F3-4418-9906-AEFFC136BBEE}|Restaurante.csproj|solutionrelative:views\\comidas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEAEA10A-98F3-4418-9906-AEFFC136BBEE}|Restaurante.csproj|c:\\users\\abiga\\source\\repos\\restaurante\\models\\orden.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEAEA10A-98F3-4418-9906-AEFFC136BBEE}|Restaurante.csproj|solutionrelative:models\\orden.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEAEA10A-98F3-4418-9906-AEFFC136BBEE}|Restaurante.csproj|c:\\users\\abiga\\source\\repos\\restaurante\\data\\restaurantedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEAEA10A-98F3-4418-9906-AEFFC136BBEE}|Restaurante.csproj|solutionrelative:data\\restaurantedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEAEA10A-98F3-4418-9906-AEFFC136BBEE}|Restaurante.csproj|c:\\users\\abiga\\source\\repos\\restaurante\\views\\accesos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BEAEA10A-98F3-4418-9906-AEFFC136BBEE}|Restaurante.csproj|solutionrelative:views\\accesos\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEAEA10A-98F3-4418-9906-AEFFC136BBEE}|Restaurante.csproj|c:\\users\\abiga\\source\\repos\\restaurante\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEAEA10A-98F3-4418-9906-AEFFC136BBEE}|Restaurante.csproj|solutionrelative:controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEAEA10A-98F3-4418-9906-AEFFC136BBEE}|Restaurante.csproj|c:\\users\\abiga\\source\\repos\\restaurante\\views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BEAEA10A-98F3-4418-9906-AEFFC136BBEE}|Restaurante.csproj|solutionrelative:views\\usuarios\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEAEA10A-98F3-4418-9906-AEFFC136BBEE}|Restaurante.csproj|c:\\users\\abiga\\source\\repos\\restaurante\\views\\usuarios\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BEAEA10A-98F3-4418-9906-AEFFC136BBEE}|Restaurante.csproj|solutionrelative:views\\usuarios\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEAEA10A-98F3-4418-9906-AEFFC136BBEE}|Restaurante.csproj|c:\\users\\abiga\\source\\repos\\restaurante\\views\\usuarios\\eliminar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BEAEA10A-98F3-4418-9906-AEFFC136BBEE}|Restaurante.csproj|solutionrelative:views\\usuarios\\eliminar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEAEA10A-98F3-4418-9906-AEFFC136BBEE}|Restaurante.csproj|c:\\users\\abiga\\source\\repos\\restaurante\\views\\roles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BEAEA10A-98F3-4418-9906-AEFFC136BBEE}|Restaurante.csproj|solutionrelative:views\\roles\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEAEA10A-98F3-4418-9906-AEFFC136BBEE}|Restaurante.csproj|c:\\users\\abiga\\source\\repos\\restaurante\\views\\roles\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BEAEA10A-98F3-4418-9906-AEFFC136BBEE}|Restaurante.csproj|solutionrelative:views\\roles\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEAEA10A-98F3-4418-9906-AEFFC136BBEE}|Restaurante.csproj|c:\\users\\abiga\\source\\repos\\restaurante\\views\\roles\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BEAEA10A-98F3-4418-9906-AEFFC136BBEE}|Restaurante.csproj|solutionrelative:views\\roles\\crear.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEAEA10A-98F3-4418-9906-AEFFC136BBEE}|Restaurante.csproj|c:\\users\\abiga\\source\\repos\\restaurante\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BEAEA10A-98F3-4418-9906-AEFFC136BBEE}|Restaurante.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEAEA10A-98F3-4418-9906-AEFFC136BBEE}|Restaurante.csproj|c:\\users\\abiga\\source\\repos\\restaurante\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BEAEA10A-98F3-4418-9906-AEFFC136BBEE}|Restaurante.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEAEA10A-98F3-4418-9906-AEFFC136BBEE}|Restaurante.csproj|c:\\users\\abiga\\source\\repos\\restaurante\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEAEA10A-98F3-4418-9906-AEFFC136BBEE}|Restaurante.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEAEA10A-98F3-4418-9906-AEFFC136BBEE}|Restaurante.csproj|c:\\users\\abiga\\source\\repos\\restaurante\\controllers\\accesoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEAEA10A-98F3-4418-9906-AEFFC136BBEE}|Restaurante.csproj|solutionrelative:controllers\\accesoscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEAEA10A-98F3-4418-9906-AEFFC136BBEE}|Restaurante.csproj|c:\\users\\abiga\\source\\repos\\restaurante\\models\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEAEA10A-98F3-4418-9906-AEFFC136BBEE}|Restaurante.csproj|solutionrelative:models\\rol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEAEA10A-98F3-4418-9906-AEFFC136BBEE}|Restaurante.csproj|c:\\users\\abiga\\source\\repos\\restaurante\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BEAEA10A-98F3-4418-9906-AEFFC136BBEE}|Restaurante.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrdenesController.cs",
+              "DocumentMoniker": "C:\\Users\\abiga\\source\\repos\\Restaurante\\Controllers\\OrdenesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrdenesController.cs",
+              "ToolTip": "C:\\Users\\abiga\\source\\repos\\Restaurante\\Controllers\\OrdenesController.cs",
+              "RelativeToolTip": "Controllers\\OrdenesController.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAwwBcAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T13:38:32.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RestauranteDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\abiga\\source\\repos\\Restaurante\\Data\\RestauranteDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\RestauranteDbContext.cs",
+              "ToolTip": "C:\\Users\\abiga\\source\\repos\\Restaurante\\Data\\RestauranteDbContext.cs",
+              "RelativeToolTip": "Data\\RestauranteDbContext.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA9wB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T13:46:58.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\abiga\\source\\repos\\Restaurante\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\abiga\\source\\repos\\Restaurante\\Models\\Usuario.cs",
+              "RelativeToolTip": "Models\\Usuario.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAYwCMAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T14:54:14.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\abiga\\source\\repos\\Restaurante\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\abiga\\source\\repos\\Restaurante\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADoAAABhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-19T13:36:40.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Comida.cs",
+              "DocumentMoniker": "C:\\Users\\abiga\\source\\repos\\Restaurante\\Models\\Comida.cs",
+              "RelativeDocumentMoniker": "Models\\Comida.cs",
+              "ToolTip": "C:\\Users\\abiga\\source\\repos\\Restaurante\\Models\\Comida.cs",
+              "RelativeToolTip": "Models\\Comida.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAQwBAAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T13:42:06.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Recibo.cshtml",
+              "DocumentMoniker": "C:\\Users\\abiga\\source\\repos\\Restaurante\\Views\\Ordenes\\Recibo.cshtml",
+              "RelativeDocumentMoniker": "Views\\Ordenes\\Recibo.cshtml",
+              "ToolTip": "C:\\Users\\abiga\\source\\repos\\Restaurante\\Views\\Ordenes\\Recibo.cshtml",
+              "RelativeToolTip": "Views\\Ordenes\\Recibo.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-19T13:54:18.895Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Ordenar.cshtml",
+              "DocumentMoniker": "C:\\Users\\abiga\\source\\repos\\Restaurante\\Views\\Ordenes\\Ordenar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Ordenes\\Ordenar.cshtml",
+              "ToolTip": "C:\\Users\\abiga\\source\\repos\\Restaurante\\Views\\Ordenes\\Ordenar.cshtml",
+              "RelativeToolTip": "Views\\Ordenes\\Ordenar.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-19T13:52:48.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Orden.cs",
+              "DocumentMoniker": "C:\\Users\\abiga\\source\\repos\\Restaurante\\Models\\Orden.cs",
+              "RelativeDocumentMoniker": "Models\\Orden.cs",
+              "ToolTip": "C:\\Users\\abiga\\source\\repos\\Restaurante\\Models\\Orden.cs",
+              "RelativeToolTip": "Models\\Orden.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAMAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T13:44:14.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\abiga\\source\\repos\\Restaurante\\Views\\Comidas\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Comidas\\Index.cshtml",
+              "ToolTip": "C:\\Users\\abiga\\source\\repos\\Restaurante\\Views\\Comidas\\Index.cshtml",
+              "RelativeToolTip": "Views\\Comidas\\Index.cshtml",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAiwCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-19T15:30:51.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ComidasController.cs",
+              "DocumentMoniker": "C:\\Users\\abiga\\source\\repos\\Restaurante\\Controllers\\ComidasController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ComidasController.cs",
+              "ToolTip": "C:\\Users\\abiga\\source\\repos\\Restaurante\\Controllers\\ComidasController.cs",
+              "RelativeToolTip": "Controllers\\ComidasController.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAwwDMAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T13:37:42.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\abiga\\source\\repos\\Restaurante\\Views\\Comidas\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Comidas\\Create.cshtml",
+              "ToolTip": "C:\\Users\\abiga\\source\\repos\\Restaurante\\Views\\Comidas\\Create.cshtml",
+              "RelativeToolTip": "Views\\Comidas\\Create.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAiwBsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-19T15:32:01.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\abiga\\source\\repos\\Restaurante\\Views\\Comidas\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Comidas\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\abiga\\source\\repos\\Restaurante\\Views\\Comidas\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Comidas\\Edit.cshtml",
+              "ViewState": "AQIAABAAAAAAAAAAAAAiwBwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-19T15:32:42.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\abiga\\source\\repos\\Restaurante\\Views\\Accesos\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Accesos\\Index.cshtml",
+              "ToolTip": "C:\\Users\\abiga\\source\\repos\\Restaurante\\Views\\Accesos\\Index.cshtml",
+              "RelativeToolTip": "Views\\Accesos\\Index.cshtml",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAAAAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-19T11:37:52.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "RolesController.cs",
+              "DocumentMoniker": "C:\\Users\\abiga\\source\\repos\\Restaurante\\Controllers\\RolesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RolesController.cs",
+              "ToolTip": "C:\\Users\\abiga\\source\\repos\\Restaurante\\Controllers\\RolesController.cs",
+              "RelativeToolTip": "Controllers\\RolesController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T11:39:00.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "C:\\Users\\abiga\\source\\repos\\Restaurante\\Views\\Usuarios\\Editar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Usuarios\\Editar.cshtml",
+              "ToolTip": "C:\\Users\\abiga\\source\\repos\\Restaurante\\Views\\Usuarios\\Editar.cshtml",
+              "RelativeToolTip": "Views\\Usuarios\\Editar.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-19T11:47:08.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\abiga\\source\\repos\\Restaurante\\Views\\Usuarios\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Usuarios\\Index.cshtml",
+              "ToolTip": "C:\\Users\\abiga\\source\\repos\\Restaurante\\Views\\Usuarios\\Index.cshtml",
+              "RelativeToolTip": "Views\\Usuarios\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-19T11:47:22.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Eliminar.cshtml",
+              "DocumentMoniker": "C:\\Users\\abiga\\source\\repos\\Restaurante\\Views\\Usuarios\\Eliminar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Usuarios\\Eliminar.cshtml",
+              "ToolTip": "C:\\Users\\abiga\\source\\repos\\Restaurante\\Views\\Usuarios\\Eliminar.cshtml",
+              "RelativeToolTip": "Views\\Usuarios\\Eliminar.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-19T11:47:13.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\abiga\\source\\repos\\Restaurante\\Views\\Roles\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Roles\\Index.cshtml",
+              "ToolTip": "C:\\Users\\abiga\\source\\repos\\Restaurante\\Views\\Roles\\Index.cshtml",
+              "RelativeToolTip": "Views\\Roles\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-19T11:46:51.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "C:\\Users\\abiga\\source\\repos\\Restaurante\\Views\\Roles\\Editar.cshtml",
+              "RelativeDocumentMoniker": "Views\\Roles\\Editar.cshtml",
+              "ToolTip": "C:\\Users\\abiga\\source\\repos\\Restaurante\\Views\\Roles\\Editar.cshtml",
+              "RelativeToolTip": "Views\\Roles\\Editar.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-19T11:46:39.191Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Crear.cshtml",
+              "DocumentMoniker": "C:\\Users\\abiga\\source\\repos\\Restaurante\\Views\\Roles\\Crear.cshtml",
+              "RelativeDocumentMoniker": "Views\\Roles\\Crear.cshtml",
+              "ToolTip": "C:\\Users\\abiga\\source\\repos\\Restaurante\\Views\\Roles\\Crear.cshtml",
+              "RelativeToolTip": "Views\\Roles\\Crear.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-19T11:46:33.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\abiga\\source\\repos\\Restaurante\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\abiga\\source\\repos\\Restaurante\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-19T11:46:04.216Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\abiga\\source\\repos\\Restaurante\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\abiga\\source\\repos\\Restaurante\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-19T11:46:00.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\abiga\\source\\repos\\Restaurante\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\abiga\\source\\repos\\Restaurante\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T11:38:49.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AccesosController.cs",
+              "DocumentMoniker": "C:\\Users\\abiga\\source\\repos\\Restaurante\\Controllers\\AccesosController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccesosController.cs",
+              "ToolTip": "C:\\Users\\abiga\\source\\repos\\Restaurante\\Controllers\\AccesosController.cs",
+              "RelativeToolTip": "Controllers\\AccesosController.cs",
+              "ViewState": "AQIAADgAAAAAAAAAAAAwwAEAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T11:37:57.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Rol.cs",
+              "DocumentMoniker": "C:\\Users\\abiga\\source\\repos\\Restaurante\\Models\\Rol.cs",
+              "RelativeDocumentMoniker": "Models\\Rol.cs",
+              "ToolTip": "C:\\Users\\abiga\\source\\repos\\Restaurante\\Models\\Rol.cs",
+              "RelativeToolTip": "Models\\Rol.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-19T11:25:35.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\abiga\\source\\repos\\Restaurante\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\abiga\\source\\repos\\Restaurante\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-19T11:22:11.47Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

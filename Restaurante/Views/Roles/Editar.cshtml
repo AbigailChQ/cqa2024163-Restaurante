@@ -1,0 +1,35 @@
+﻿@model Restaurante.Models.Rol
+
+@{
+    ViewData["Title"] = "Editar";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Editar</h1>
+
+<h4>Rol</h4>
+<hr />
+<div class="row g-3">
+    <div class="col-md-6">
+        <form asp-action="Editar">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="id_rol" />
+            <div class="col-md-6">
+                <label  class="control-label">Nombre del rol</label>
+                <input asp-for="nombre_rol" class="form-control" />
+                <span asp-validation-for="nombre_rol" class="text-danger"></span>
+            </div>
+            <input type="hidden" class="form-check-input" asp-for="eliminado_rol" value="False" />
+            <br>
+            <div class="col-12">
+                <input type="submit" value="Editar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+<br>
+<div>
+    <a asp-action="Index">Volver</a>
+</div>
+
+

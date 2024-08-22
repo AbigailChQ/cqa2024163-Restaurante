@@ -1,0 +1,20 @@
+﻿@model IEnumerable<Restaurante.Models.Comida>
+
+<h2>Ordenar Comida</h2>
+
+<form asp-action="Ordenar" method="post">
+    <div>
+        <label for="comida">Selecciona una comida:</label>
+        <select id="comida" name="comidaId">
+            @foreach (var comida in Model)
+            {
+                <option value="@comida.Id">@comida.Nombre - @comida.Precio.ToString("C")</option>
+            }
+        </select>
+    </div>
+    <div>
+        <label for="cantidad">Cantidad:</label>
+        <input type="number" id="cantidad" name="cantidad" min="1" value="1" />
+    </div>
+    <button type="submit">Ordenar</button>
+</form>

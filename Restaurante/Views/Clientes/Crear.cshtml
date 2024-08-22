@@ -1,0 +1,62 @@
+﻿@model Restaurante.Models.Usuario
+
+@{
+    ViewData["Title"] = "Crear";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<h1>Crear</h1>
+
+<h4>Usuario</h4>
+<hr />
+<div class="row g-3">
+    <div class="col-md-6">
+        <form asp-action="Crear">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="col-md-6">
+                <label class="control-label">Nombre</label>
+                <input asp-for="nombre" class="form-control" required minlength="2" maxlength="50" title="El Nombre del Administrador debe tener entre 2 y 50 caracteres." />
+                <span asp-validation-for="nombre" class="text-danger"></span>
+            </div>
+            <div class="col-md-6">
+                <label class="control-label">Apellido</label>
+                <input asp-for="apellido" class="form-control" required minlength="2" maxlength="50" title="El Nombre del Administrador debe tener entre 2 y 50 caracteres." />
+                <span asp-validation-for="apellido" class="text-danger"></span>
+            </div>
+            <div class="col-md-6">
+                <label class="control-label">Telefono</label>
+                <input asp-for="telefono" class="form-control" required minlength="2" maxlength="50" title="El Nombre del Administrador debe tener entre 2 y 50 caracteres." />
+                <span asp-validation-for="telefono" class="text-danger"></span>
+            </div>
+
+            <input type="hidden" class="form-check-input" asp-for="eliminado" value="False" />
+            <div class="col-md-6">
+                <label class="control-label">Nombre de usuario</label>
+                <input asp-for="nombre_u" class="form-control" />
+                <span asp-validation-for="nombre_u" class="text-danger"></span>
+            </div>
+
+            <div class="col-md-6">
+                <label class="control-label">Contraseña</label>
+                <input asp-for="contraseña" class="form-control" />
+                <span asp-validation-for="contraseña" class="text-danger"></span>
+            </div>
+            <div class="col-md-6">
+                <label class="control-label">Rol</label>
+                <select asp-for="id_rol" class="form-control" asp-items="ViewBag.roles">
+                    <option value="">Seleccionar Rol</option>
+                </select>
+            </div>
+            <br>
+            <div class="col-12">
+                <input type="submit" value="Crear" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+<br>
+<div>
+    <a asp-action="Index">Volver</a>
+</div>
